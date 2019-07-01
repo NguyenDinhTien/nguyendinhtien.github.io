@@ -64,7 +64,10 @@ footer{
 
 nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 	background: #ffffff;
-
+	
+	.navbar-brand img {
+		height: 70px;
+	}
 	a.nav-link {
 		line-height: 60px;
 		@include font(1.6rem);

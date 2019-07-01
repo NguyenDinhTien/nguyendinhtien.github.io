@@ -41,6 +41,8 @@ footer {
 
 nav.navbar.navbar-light.bg-light.navbar-fixed-top {
   background: #ffffff; }
+  nav.navbar.navbar-light.bg-light.navbar-fixed-top .navbar-brand img {
+    height: 70px; }
   nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link {
     line-height: 60px;
     font-family: segoe ui;
