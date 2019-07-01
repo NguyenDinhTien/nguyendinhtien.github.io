@@ -39,31 +39,38 @@ $res-1200 : "(min-width: 1200px)";
 }
 *{margin:0;padding: 0};
 @include responsive_768{
-	nav.navbar.navbar-light.bg-light.navbar-fixed-top{
-		background: #dc3a3c;;
-	}
-	.navbar-light .navbar-toggler{
-		background: none;
-		color: white!important;
-		border-color: #f7f7f7;
-		font-size: 16px;
 
-	}
-	nav.navbar.navbar-light.bg-light.navbar-fixed-top .nav-pills .nav-link {
-		color: white;
-	}
-	nav.navbar.navbar-light.bg-light.navbar-fixed-top .nav-pills .nav-link.active::after {
-		bottom: 3px;
-		border-bottom: 1px solid #fdfdfd
-	}
-	nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link::after{
-		bottom: 3px;
-		background-color: #ffffff
-	}
-	nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link {
-		line-height: initial;
+	nav.navbar.navbar-light.bg-light.navbar-fixed-top {
+    background: #dc3a3c;
+  }
 
-	}
+  .navbar-light .navbar-toggler {
+    background: none;
+    color: white !important;
+    border-color: #f7f7f7;
+    font-size: 16px;
+  }
+
+  nav.navbar.navbar-light.bg-light.navbar-fixed-top .nav-link {
+    color: white;
+  }
+
+  nav.navbar.navbar-light.bg-light.navbar-fixed-top .nav-link.active::after {
+    bottom: 3px;
+   background-color: #ffffff;
+  }
+
+  nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link::after {
+    bottom: 3px;
+    background-color: #ffffff00;
+  }
+
+  nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link {
+    line-height: initial;
+  }
+	
+ 		
+
 	div#exCollapsingNavbar2{
 		position: relative;
 	}
