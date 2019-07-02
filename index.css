@@ -56,6 +56,21 @@ footer {
   margin: 0 auto;
 }
 
+nav.navbar.navbar-light.bg-light.navbar-fixed-top.scrolled {
+  background: #dc3a3c !important;
+  transition: all 0.6s cubic-bezier(0.43, 0.06, 0.58, 1);
+}
+nav.navbar.navbar-light.bg-light.navbar-fixed-top.scrolled .nav-link {
+  color: white;
+}
+nav.navbar.navbar-light.bg-light.navbar-fixed-top.scrolled .nav-link.active {
+  position: relative;
+  background-color: unset;
+}
+nav.navbar.navbar-light.bg-light.navbar-fixed-top.scrolled a.nav-link::after {
+  background-color: white !important;
+}
+
 nav.navbar.navbar-light.bg-light.navbar-fixed-top {
   background: #ffffff;
 }

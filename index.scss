@@ -62,6 +62,25 @@ footer{
 	margin: 0 auto;
 }
 
+nav.navbar.navbar-light.bg-light.navbar-fixed-top.scrolled {
+	background: #dc3a3c!important;
+	transition: all 0.6s cubic-bezier(0.43, 0.06, 0.58, 1);	
+	.nav-link{
+		color: white;
+	}
+
+	.nav-link.active{
+		position: relative;
+		background-color: unset;
+	}
+	
+	a.nav-link::after{
+		background-color: white!important;
+	}
+	
+}
+
+//add class scroll 
 nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 	background: #ffffff;
 	
@@ -109,7 +128,7 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 		width: 100%;
 	}
 }
-
+// end
 
 .blockInfo {
 	height: 100%;
@@ -153,7 +172,7 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 				background-repeat: no-repeat;
 				background-size: 80%;
 				-webkit-animation: animate 5s linear infinite;
-				        animation: animate 5s linear infinite;
+				animation: animate 5s linear infinite;
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: rgba(255, 255, 255, 0);
 			}
@@ -273,7 +292,7 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 		}
 		.bubble:hover {
 			-webkit-transform: scale(1.05, 1.05);
-			        transform: scale(1.05, 1.05);
+			transform: scale(1.05, 1.05);
 		}
 		.odd {
 			margin-top: 122px;
@@ -418,7 +437,7 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 		.imgItem:hover {
 			img.img-fluid {
 				-webkit-transform: scale(1.1);
-				        transform: scale(1.1);
+				transform: scale(1.1);
 				transition: all ease-in-out, 0.5s;
 			}
 			.icons a{
@@ -545,7 +564,7 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 		top: 50%;
 		left: 50%;
 		-webkit-transform: translateX(-50%) translateY(-50%);
-		        transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
 		opacity: 0;
 		visibility: hidden;
 		transition: 0.4s;
@@ -594,7 +613,7 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 				position: absolute;
 				top: 50%;
 				-webkit-transform: translateY(-50%);
-				        transform: translateY(-50%);
+				transform: translateY(-50%);
 				text-indent: -9999px;
 				z-index: 7;
 				cursor: pointer;

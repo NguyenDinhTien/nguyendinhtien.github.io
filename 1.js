@@ -39,11 +39,15 @@
  		return false;		
  	});
 
- 	//Javascript Function for PROGRESS BAR LINES  SCRIPT
+ 	$('#exCollapsingNavbar2').after().click(function(event) {
+        jQuery('.collapse').collapse('hide');
+     });
 
 
- 	var linesHead = $(".skills-section"),
- 	line = $(".progress-line");
+
+//Javascript Function for PROGRESS BAR LINES  
+var linesHead = $(".skills-section"),
+line = $(".progress-line");
 
  	//Progress Bars function
  	function progressFunction(e) {
@@ -74,17 +78,17 @@
  		}
     } //End progressFunction Fuction
     function changeColor(argument) {
-        if ($(window).scrollTop()>$('.blockInfo').height()) {
-            alert("abc")
-        }
+
+        var $nav = $("nav.navbar.navbar-light.bg-light.navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() >= $('.about').offset().top- 70);
     }
 
     $(window).on('scroll', function() {
     	progressFunction();
-
+        changeColor()
         // console.log($('.blockInfo').height());
-        console.log($('.about').offset().top);
-    	
+        
+
     });
 
 
