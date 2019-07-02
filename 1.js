@@ -73,9 +73,17 @@
  			}
  		}
     } //End progressFunction Fuction
+    function changeColor(argument) {
+        if ($(window).scrollTop()>$('.blockInfo').height()) {
+            alert("abc")
+        }
+    }
 
     $(window).on('scroll', function() {
     	progressFunction();
+
+        // console.log($('.blockInfo').height());
+        console.log($('.about').offset().top);
     	
     });
 
