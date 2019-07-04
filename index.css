@@ -186,17 +186,17 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link:hover::after {
   color: #d82c2e;
   text-align: center;
 }
-.about .content {
-  font-family: segoe ui;
-  font-size: 1.6rem;
-}
 .about .content p {
   text-align: justify;
+  font-family: segoe ui;
+  font-size: 1.6rem;
 }
 .about .content .btnCV {
   text-align: center;
 }
 .about .content .btnCV .CV {
+  font-family: segoe ui;
+  font-size: 1.6rem;
   position: relative;
   display: inline-block;
   color: #fff;

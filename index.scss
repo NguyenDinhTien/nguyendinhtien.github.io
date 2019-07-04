@@ -196,13 +196,15 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top {
 		@include h3;
 	}
 	.content{
-		@include font(1.6rem);
+		
 		p{
 			text-align: justify;
+			@include font(1.6rem);
 		}
 		.btnCV{
 			text-align: center;
 			.CV{
+				@include font(1.6rem);
 				position: relative;
 				display: inline-block;
 				color: #fff;
