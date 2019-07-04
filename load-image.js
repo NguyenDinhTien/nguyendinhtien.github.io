@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",function(){
 	var imgs=document.querySelectorAll('.muchItem .oneItem'),
-    link=document.querySelector('.link'),
+    links=document.querySelectorAll('.link'),
     black=document.querySelector('.black'),
     close=document.querySelector('.close'),
     infoImg=document.querySelector('.infoImg'),
@@ -35,9 +35,15 @@ document.addEventListener("DOMContentLoaded",function(){
 				
 
 			})
-           
-        }
 
+        }
+        // Prevent show image
+        for (var i = 0; i <links.length ; i++) {
+            links[i].addEventListener('click',function(e){
+                e.stopPropagation();
+            })
+        }
+        
         
         var hientai2=thutucuaactive;
         rightBtn.addEventListener('click',function(){

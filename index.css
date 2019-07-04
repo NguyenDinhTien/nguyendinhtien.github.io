@@ -137,20 +137,6 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link:hover::after {
 .blockInfo .container .intro {
   display: table-cell;
   text-align: center;
-  /* p {*/
-  /* 	position: relative;*/
-  /* 	font-family: sans-serif;*/
-  /* 	text-transform: uppercase;*/
-  /* 	font-size: 2em;*/
-  /* 	letter-spacing: 4px;*/
-  /* 	overflow: hidden;*/
-  /* 	background: linear-gradient(90deg, #000, #fff, #000);*/
-  /* 	background-repeat: no-repeat;*/
-  /* 	background-size: 80%;*/
-  /* 	animation: animate 3s linear infinite;*/
-  /* 	-webkit-background-clip: text;*/
-  /* 	-webkit-text-fill-color: rgba(255, 255, 255, 0);*/
-  /* }*/
 }
 .blockInfo .container .intro img {
   width: 180px;
@@ -200,10 +186,27 @@ nav.navbar.navbar-light.bg-light.navbar-fixed-top a.nav-link:hover::after {
   color: #d82c2e;
   text-align: center;
 }
-.about .content span {
+.about .content {
   font-family: segoe ui;
   font-size: 1.6rem;
+}
+.about .content p {
   text-align: justify;
+}
+.about .content .btnCV {
+  text-align: center;
+}
+.about .content .btnCV .CV {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  padding: 16px 16px;
+  border: none;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background: #333;
 }
 .about .info .row {
   font-family: segoe ui;

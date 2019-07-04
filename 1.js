@@ -91,7 +91,7 @@ line = $(".progress-line");
 
     });
 
-
+    
     // contact form
 
     $('#contact-form').on('submit', function() {
