@@ -59,15 +59,13 @@ document.addEventListener("DOMContentLoaded",function(){
 
 
         leftBtn.addEventListener('click',function(){
-
             var soluonganh=listImg.length-1;
             
-            hientai2=(hientai2<soluonganh)?(hientai2-1):0;
+            hientai2=(hientai2>0)?(hientai2-1):(soluonganh-1);
             var phantutieptheo=listImg[hientai2];
 
             document.querySelector('li.active').classList.remove('active');
             phantutieptheo.classList.add('active');
         })
-
 
     },false)
