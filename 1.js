@@ -3,6 +3,10 @@
  		itemSelector: '.oneItem',
  		layoutMode: 'fitRows'
  	});
+	
+	 blockItem.imagesLoaded().progress( function() {
+		blockItem.isotope('layout');
+	  });
 
  	$('.menuProduct .selectMenu > a').click(function(e) {
  		
