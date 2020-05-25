@@ -1,7 +1,7 @@
 ﻿ $(function(){
  	blockItem = $('.muchItem').isotope({
  		itemSelector: '.oneItem',
- 		layoutMode: 'masonry'
+ 		layoutMode: 'fitRows'
  	});
 
  	$('.menuProduct .selectMenu > a').click(function(e) {
