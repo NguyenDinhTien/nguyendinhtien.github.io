@@ -1750,7 +1750,7 @@ body a:-webkit-any-link {
   align-items: center;
 }
 .footer__img-background {
-  background: url(/assets/img/footer.png);
+  background: url(https://nguyendinhtien.github.io/product/shopee/assets/img/footer.png);
 }
 .footer__img-pay--visa {
   width: 5.5rem;
